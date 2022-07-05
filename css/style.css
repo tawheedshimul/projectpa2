@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-paragrap{
+    text-align: justify;
+    padding-left: 25px;
+    width:60%;
+}
+
+.container-image{
+    background-image: url(../images/shapes/useshap.png)
+    width:30%;
+}
+
+.btn{
+    color:white;
+    background-image:linear-gradient(orange,red);
+    border-radius: 30px;
+    padding:7px;
+    border:0px;
+    font-weight: bold;
+}
+
+/* 2nd section  */
+
+.container-a{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/shapes/7.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* 3rd section  */
+.text{
+    text-align: center;
+    
+    
+}
+
+/* 4th section  */
+
+.product{
+    width=40%;
+    box-shadow: 10px 10px 10px gray;
+    border-top: solid chocolate 5px;
+    border-left:solid chocolate 1px;
+    margin-left:5%;
+    margin-right:5%;
+    border border-radius: 15px;
+}
+
+/* 5th section  */
+.last{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+    align-items: center;
+}
